@@ -1,0 +1,40 @@
+import type { GameSummary } from "@/lib/types";
+
+export const sampleGames: GameSummary[] = [
+  {
+    id: 1,
+    title: "Neon Arena",
+    thumbnail: "https://www.freetogame.com/g/1/thumbnail.jpg",
+    shortDescription: "A fast arena shooter with neon maps.",
+    genre: "Shooter",
+    platform: "PC (Windows)",
+    publisher: "Arc Labs",
+    developer: "Arc Labs",
+    releaseDate: "2024-05-01",
+    profileUrl: "https://www.freetogame.com/neon-arena",
+  },
+  {
+    id: 2,
+    title: "Tactical Bloom",
+    thumbnail: "https://www.freetogame.com/g/2/thumbnail.jpg",
+    shortDescription: "Turn based fantasy strategy.",
+    genre: "Strategy",
+    platform: "Web Browser",
+    publisher: "Garden Works",
+    developer: "Garden Works",
+    releaseDate: "2022-01-10",
+    profileUrl: "https://www.freetogame.com/tactical-bloom",
+  },
+  {
+    id: 3,
+    title: "Aether Cards",
+    thumbnail: "https://www.freetogame.com/g/3/thumbnail.jpg",
+    shortDescription: "Collect cards and climb ranked ladders.",
+    genre: "Card Game",
+    platform: "PC (Windows)",
+    publisher: "Deck Forge",
+    developer: "Deck Forge",
+    releaseDate: "2023-08-15",
+    profileUrl: "https://www.freetogame.com/aether-cards",
+  },
+];
